@@ -1,0 +1,5 @@
+weight = float(input("Input weight: "))
+height = float(input("Input height in meters: "))
+body_mass_index = int(weight / (height ** 2))
+print("Your body mass index: ", body_mass_index)
+print("16" + (body_mass_index - 16) * "=" + "|" + (40 - body_mass_index) * "=" + "40")
