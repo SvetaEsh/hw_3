@@ -14,5 +14,5 @@ def decorator_login(func):
     return wrapper_decorator
 
 login= input("Input login: ")
-summ_admin = decorator_login(summ_invoice)
-print(summ_admin())
+summ_invoice = decorator_login(summ_invoice)
+print(summ_invoice())
